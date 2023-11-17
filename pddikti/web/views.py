@@ -52,7 +52,7 @@ class DetailUnivDosen(APIView):
 class Detail_Mahasiswa(APIView):
     def post(self, request):
         data = json.loads(request.body)
-        nama = data['nama_mahasiswa']
+        nama = data['nama']
         pddikti_api = api()
         try:
             detail_mhs = pddikti_api.detail_mahasiswa_by_name(keyword=nama)
