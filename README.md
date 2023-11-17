@@ -1,4 +1,3 @@
-# pddikti-scraper
 # PDDIKTI Scrapper 
 ## hanya berbentuk data backend saja.
 
